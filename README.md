@@ -1,3 +1,3 @@
 # junitEjercicios
 
-Actividades de la sesión de pruebas unitarias con JUnit y cobertura de código con EclEmma en Eclipse
+Actividades de la sesión 05 de Pruebas Unitarias con JUnit y cobertura de código con EclEmma en Eclipse
