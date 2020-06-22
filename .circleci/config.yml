@@ -1,9 +1,5 @@
 version: 2.1
 
-executors:
-  my-executor:
-    working_directory: /sesion06Junit
-    
 orbs:
   maven: circleci/maven@0.0.12
 
@@ -11,3 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test # checkout, build, test, and upload test results
+          app_src_directory: sesion06Junit/
