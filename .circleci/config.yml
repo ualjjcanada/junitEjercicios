@@ -7,4 +7,4 @@ workflows:
   maven_test:
     jobs:
       - maven/test:
-          app_src_directory: ~/sesion06Junit
+          command: '-f sesion06Junit/pom.xml'
