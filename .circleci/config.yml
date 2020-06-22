@@ -8,3 +8,4 @@ workflows:
     jobs:
       - maven/test:
           app_src_directory: 'sesion06Junit/'
+          test_results_path: 'sesion06Junit/target/surefire-reports'
