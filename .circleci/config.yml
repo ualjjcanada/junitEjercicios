@@ -1,5 +1,9 @@
 version: 2.1
 
+executors:
+  my-executor:
+    working_directory: /sesion06Junit
+    
 orbs:
   maven: circleci/maven@0.0.12
 
